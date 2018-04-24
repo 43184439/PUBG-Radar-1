@@ -203,12 +203,12 @@ object GameStateCMD: GameListener {
         }
         53 -> {
           val bIsTeamMatch = propertyBool()
-          val isTeamMatch = bIsTeamMatch
-          //println("GameStateCMD 53: $b")
+          isTeamMatch = bIsTeamMatch
+          println("TeamMatch: $isTeamMatch")
         }
         54 -> {
           val bIsZombieMode = propertyBool()
-          println("GameStateCMD 54: $bIsZombieMode")
+          //println("GameStateCMD 54: $bIsZombieMode")
         }
         55 -> {
           val bUseXboxUnauthorizedDevice = propertyBool()
@@ -223,21 +223,21 @@ object GameStateCMD: GameListener {
         58 -> {
           val result = propertyByte()
           MatchStartType = result.toString()
-          println("GameStateCMD 58: ${MatchStartType}")
+          //println("GameStateCMD 58: ${MatchStartType}")
         }
         59 -> {
           val bShowAircraftRoute = propertyBool()
-          println("GameStateCMD 59: $bShowAircraftRoute")
+          //println("GameStateCMD 59: $bShowAircraftRoute")
         }
         60 -> {
           val bIsWarMode = propertyBool()
           isWarMode = bIsWarMode
-          println("GameStateCMD 60: $bIsWarMode")
+          //println("GameStateCMD 60: $bIsWarMode")
         }
         61 -> {
           val result = propertyBool()
           //isWarMode = bIsWarMode
-          println("GameStateCMD 61: $result")
+          //println("GameStateCMD 61: $result")
         }
         62 -> {
           //val result = propertyBool()

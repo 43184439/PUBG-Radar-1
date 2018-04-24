@@ -49,6 +49,11 @@ Mouse Middle Button | Center on player or Quick zoom-in/out |
 
 # Changelog 
 
+__20180424__
+* Changed self color while be spectated.
+* Optimized the logic of aimbot-hacker detection.
+* Optimized ```RetrievePlayerInfo.kt```.
+
 __20180419__
 * Added Savage map.
 * Fixed the offset on Savage map.
